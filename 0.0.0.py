@@ -1,3 +1,7 @@
-value=0
-while value!=32:
-    value=ord(input())
+value=input()
+
+if bool(value)==True:
+    print("hello")
+else:
+    print("world")
+
