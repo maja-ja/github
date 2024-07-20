@@ -2,8 +2,12 @@
 value=input()
 
 if bool(value)==True:
-    print("hello")
-    open()
+    result=open("database.py",mode='r')
+    resultread=result.read()
+    if resultread==None:
+        print("apple")
+    elif resultread != None:
+        print("banana")
 else:
     print("")
 
