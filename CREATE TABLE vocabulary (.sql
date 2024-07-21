@@ -1,0 +1,5 @@
+CREATE TABLE vocabulary (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    word TEXT NOT NULL,
+    tag TEXT NOT NULL
+);
